@@ -1,0 +1,124 @@
+.product_wrapper{
+    display: flex;
+}
+
+/* Styling for the product container */
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center; /* Horizontally center items */
+    align-items: center; /* Vertically center items */
+    height: 100vh; /* Set the container to cover the full viewport height */
+}
+
+/* Styling for each individual product */
+.product-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: calc(20% - 20px); /* Adjust the width for 4 items in a row */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.Product_Btn{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Define a CSS class for the container div */
+.sort-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style the "Sort By" text */
+  .sort-text {
+    font-size: 16px;
+    margin-right: 10px; /* Add spacing between text and button */
+  }
+  
+  /* Style the button */
+  .sort-button {
+    background-color: #3498db; /* Change the background color to your preference */
+    color: #fff; /* Text color */
+    padding: 5px 10px; /* Add padding to make it a button */
+    border: none; /* Remove the border */
+    cursor: pointer;
+  }
+  
+  /* Add hover effect for the button */
+  .sort-button:hover {
+    background-color: #2980b9; /* Change the background color on hover */
+  }
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .product-card {
+        width: 80%; /* Adjust the width as needed for smaller screens */
+        margin: 10px auto;
+    }
+}
+/* Default styles for product list */
+.product_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product-card {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .Product_Btn {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button {
+
+	background-color: orange;
+  	padding: 2px;
+  	border: none;
+  	opacity: 0.6;
+  
+}
+
+.button:hover{
+  background-color: cyan;
+  opacity: 1;
+}
+  
+  /* Media query for tablets */
+  @media (max-width: 768px) {
+    .product_wrapper {
+      flex-direction: column;
+    }
+    .product-card {
+      width: 100%;
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 480px) {
+    .product-card {
+      margin: 5px;
+    }
+  }
+  

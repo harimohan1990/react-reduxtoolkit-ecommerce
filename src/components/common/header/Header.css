@@ -1,0 +1,49 @@
+/* Header.css */
+
+/* Style for the navigation container */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  /* Style for the navigation links */
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .search_product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  .search_product > svg{
+    position: absolute;
+    background-color: #333;
+    left: 6px;
+  }
+  .search_product >input[type="search"]{
+    padding: 12px 34px;
+  }
+  li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style for the navigation links */
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #ff6600;
+  }
+  

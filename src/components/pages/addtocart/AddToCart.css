@@ -1,0 +1,61 @@
+.addtocart {
+    margin-top: 70px;
+  }
+  
+  .addtocart_Product {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 100%;
+  }
+  
+  .addtocart_image img {
+    width: 100px;
+    height: 100px; /* Fix the duplicate 'width' property and set the height */
+  }
+  
+  .addtocart_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .addtocart_description p {
+    margin-left: 10px; /* Adjust the margin */
+  }
+  
+  .addtocart_inc_decbtn {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+  }
+  
+  .addtocart_inc_decbtn button {
+    color: #fff; /* Text color */
+    background-color: teal;
+    border: none;
+    padding: 10px 20px; /* Adjust padding for a cleaner look */
+    border-radius: 50%; /* Make the buttons round */
+    cursor: pointer;
+  }
+  
+  .addtocart_inc_decbtn .addtocart_conter {
+    width: 20px;
+    height: 20px;
+    background-color: green;
+    border-radius: 50%;
+    padding: 12px; /* Adjust padding */
+    margin: 12px; /* Adjust margin */
+  }
+  
+  .addtocart button {
+    background-color: teal;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
